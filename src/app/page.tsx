@@ -101,13 +101,13 @@ export default function Home() {
         <div className="mt-24 max-w-md w-full relative group">
           <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-violet-600 to-fuchsia-600 opacity-20 blur transition duration-1000 group-hover:opacity-40 group-hover:duration-200" />
           <div className="relative space-y-4 text-center bg-card/60 backdrop-blur-xl p-8 rounded-2xl border border-border/50 shadow-2xl">
-            <p className="text-xl font-bold text-foreground">Pro Access (6 Months)</p>
+            <p className="text-xl font-bold text-foreground">Pro Access (Yearly)</p>
             <div className="flex items-center justify-center gap-3 text-3xl">
-              <span className="line-through text-muted-foreground opacity-60">$149</span>
-              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-fuchsia-500">$129</span>
+              <span className="line-through text-muted-foreground opacity-60">$129</span>
+              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-fuchsia-500">$109</span>
             </div>
-            <p className="font-medium text-primary">Save $20 today</p>
-            <p className="text-sm text-muted-foreground pt-2">Launch offer for early adopters</p>
+            <p className="font-medium text-primary">Save $20 — Early Adopter Price</p>
+            <p className="text-sm text-muted-foreground pt-2">Lock in $109/year forever. Price increases to $129/year soon.</p>
             <div className="pt-6 flex justify-center w-full">
               <CheckoutButton />
             </div>

@@ -5,7 +5,7 @@ export async function isTrialExpiredAndUnsubscribed(userId: string): Promise<boo
 
     // 1. Check profile trial expiration
     const { data: profile } = await supabase
-        .from('profiles')
+        .from('users')
         .select('trial_ends_at')
         .eq('id', userId)
         .single();
